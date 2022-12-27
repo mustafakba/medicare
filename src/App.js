@@ -4,6 +4,8 @@ import Slider from "./Components/Slider";
 import WeAre from "./Components/WeAre";
 import Advantages from "./Components/Advantages";
 import OurServices from "./Components/OurServices";
+import OurPortfolio from "./Components/OurPortfolio";
+import OurDoctor from "./Components/OurDoctor";
 
 function App() {
   return (
@@ -26,6 +28,15 @@ function App() {
         {/*  OurServices section start*/}
             <OurServices></OurServices>
          {/* OurServices Section finished*/}
+
+        {/*  OurPortfolio section start*/}
+            <OurPortfolio></OurPortfolio>
+         {/* OurPortfolio Section finished*/}
+
+
+        {/*  OurPortfolio section start*/}
+            <OurDoctor></OurDoctor>
+         {/* OurPortfolio Section finished*/}
 
 
 

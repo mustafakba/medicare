@@ -1,0 +1,122 @@
+.our-doctor-container{
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    margin-top: -5px;
+}
+.our-doctor-title-section .our-doctor-title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+.our-doctor-title-section .our-doctor-title:before{
+    content: 'D';
+    font-family: lato,sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #202020;
+    line-height: 80px;
+    text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: -23px;
+    margin-left: -25px;
+    -ms-filter: "alpha(opacity=10)";
+    filter: alpha(opacity=10);
+    opacity: .1;
+}
+.our-doctor-title-section .our-doctor-title:after{
+    position: absolute;
+    left: 50%;
+    margin-left: -125.5px;
+    bottom: -39px;
+    background: url("https://themesflat.com/html/medicare/images/icon/line.png") no-repeat center center;
+    content: "";
+    width: 251px;
+    height: 12px;
+}
+.our-doctor-bold-title{
+    margin-left: 15px;
+    font-weight: 700;
+}
+.our-doctor-inner-section{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.our-doctor-left-section{
+    display: flex;
+    width: 50%;
+    height: auto;
+    justify-content: end;
+}
+
+.our-doctor-right-section{
+    padding: 100px 100px;
+    background-color: #ffffff;
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    margin-left: -12%;
+    margin-top: 85px;
+}
+.our-doctor-right-section .doctor-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom:10px ;
+}
+.our-doctor-right-section .doctor-session:before{
+    position: absolute;
+    left: -25px;
+    top: 5px;
+    height: 1.5px;
+    width: 20px;
+    background-color: #202020;
+    content: "";
+    margin-bottom: 30px;
+}
+.our-doctor-right-section .doctor-session{
+    font-style: italic;
+    margin-left: 25px;
+    position: relative;
+    color: #545454;
+    font-size: 14px;
+    margin-bottom: 45px;
+}
+.doctor-paragraph{
+    font-size: 15px;
+    margin-bottom: 25px;
+    letter-spacing: .5px;
+}
+.doctor-social-media-items{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+.doctor-social-media-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    padding: 12px;
+    border: 1px solid rgba(84, 84, 84, 0.2);
+    border-radius: 50%;
+    transition: .3s all ease-in-out;
+}
+.doctor-social-media-item:hover{
+    cursor: pointer;
+
+    color: #ffffff;
+    background-color: #2BB0EF;
+    border-color: white;
+}

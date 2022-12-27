@@ -1,6 +1,5 @@
 import styles from '../Styles/WeAre.css'
 import DarkButton from "./Shared/DarkButton";
-import {Icon} from "./Icons";
 import BlueBox from "./Shared/BlueBox";
 
 
@@ -29,7 +28,7 @@ function WeAre() {
                       </p>
 
 
-                      <div style={{maxWidth: '24%', flexWrap:'nowrap', marginTop: '50px'}}>
+                      <div style={{display:'inline-block', flexWrap:'nowrap', marginTop: '50px'}}>
                           {/*
                           Bu satırla ilgili media-query'e göre max-width ayarı yapılacak
                           */}
