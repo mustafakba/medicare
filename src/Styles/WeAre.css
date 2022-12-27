@@ -1,0 +1,125 @@
+*{
+    font-family: sans-serif;
+}
+
+.container-we-are{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 100px 170px;
+}
+.top-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.left-section .border{
+    max-height: 430px;
+    width: 430px;
+    border: 5px solid #2BB0EF;
+}
+.left-section .border img{
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.right-section{
+    width: 50%;
+}
+.container-we-are .welcome-section{
+    font-size: 18px;
+    letter-spacing: .4px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.we-are-title{
+    font-size:45px ;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.we-are-title-line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    content: '';
+    width: 101px;
+    height: 20px;
+    background: url("../image/lines.jpg");
+}
+.we-are-paragraph{
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.we-are-paragraph:last-child{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.we-are-bottom-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    width: 90%;
+    margin-left:auto ;
+    margin-right: auto;
+
+
+}
+.we-are-bottom-container{
+    display: flex;
+    margin-top: 100px;
+}
+
+.item .box{
+    border: 1px solid #2BB0EF;
+    transform: rotate(-45deg);
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+   width: 70px;
+    height: 70px;
+}
+.item .box .box-content{
+    color: white;
+    align-items: center;
+    height: 62px;
+    display: flex;
+    justify-content:center ;
+    width: 62px;
+    background: #2BB0EF;
+    border: 1px solid #2BB0EF;
+}
+.box-content-icon{
+
+    transform: rotate(45deg);
+}
+.we-are-bottom-section .numbers{
+    margin-left: 30px;
+
+}
+.we-are-bottom-number{
+    font-size: 40px;
+    font-weight: 700;
+}
+.we-are-bottom-explanation:before{
+    position: absolute;
+    left: -25px;
+    top: 8px;
+    height: 2px;
+    width: 20px;
+    background-color: #202020;
+    content: "";
+
+}
+.we-are-bottom-explanation{
+    position: relative;
+    margin-left: 30px;
+    font-size: 13px;
+    color: #545454;
+}

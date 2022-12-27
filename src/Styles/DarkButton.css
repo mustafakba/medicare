@@ -5,6 +5,7 @@
     display: flex;
     transition: color .4s linear;
     position: relative;
+    white-space: nowrap;
 }
 .button-side:hover .button-left-side,.button-side:hover  .button-right-side {
     color: rgba(255, 255, 255, 0.8);
