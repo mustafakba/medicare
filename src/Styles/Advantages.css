@@ -88,6 +88,16 @@
     max-width: 72px;
     max-height: 72px;
 }
+.active .advantages-box{
+    border: 1px solid #2BB0EF;
+    max-height: 72px;
+    max-width: 72px;
+}
+.active .advantage-item .advantages-box .advantages-box-content{
+    background: #2BB0EF;
+    border: 1px solid #2BB0EF;
+}
+
 .advantages-item .advantages-box .advantages-box-content{
     color: white;
     align-items: center;
@@ -96,6 +106,9 @@
     justify-content:center ;
     width: 56px;
     background: #000000;
+}
+.active .advantages-box-content{
+    background-color: #2BB0EF!important;
 }
 .advantages-item .advantages-box .advantages-box-content:hover{
     background: #2BB0EF;
