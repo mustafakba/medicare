@@ -1,0 +1,24 @@
+
+.item .box{
+    border: 1px solid #2BB0EF;
+    transform: rotate(-45deg);
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+}
+.item .box .box-content{
+    color: white;
+    align-items: center;
+    height: 62px;
+    display: flex;
+    justify-content:center ;
+    width: 62px;
+    background: #2BB0EF;
+    border: 1px solid #2BB0EF;
+}
+.box-content-icon{
+    transform: rotate(45deg);
+}

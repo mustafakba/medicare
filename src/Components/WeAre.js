@@ -1,6 +1,7 @@
 import styles from '../Styles/WeAre.css'
 import DarkButton from "./Shared/DarkButton";
 import {Icon} from "./Icons";
+import BlueBox from "./Shared/BlueBox";
 
 
 function WeAre() {
@@ -38,60 +39,28 @@ function WeAre() {
               </div>
               <div className="we-are-bottom-section">
                   <div className="we-are-bottom-container">
-                      <div className="item">
-                          <div className="box">
-                              <div className="box-content">
-                                <div className="box-content-icon">
-                                    <Icon name="user" size={24}/>
-                                </div>
-                              </div>
-                          </div>
-                      </div>
+                      <BlueBox iconName="user"/>
                       <div className="numbers">
                           <div className="we-are-bottom-number">3928</div>
                           <div className="we-are-bottom-explanation"> Happy Clients</div>
                       </div>
                   </div>
                   <div className="we-are-bottom-container">
-                      <div className="item">
-                          <div className="box">
-                              <div className="box-content">
-                                  <div className="box-content-icon">
-                                      <Icon name="plaster" size={24}/>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
+                      <BlueBox iconName="plaster" />
                       <div className="numbers">
                           <div className="we-are-bottom-number">650</div>
                           <div className="we-are-bottom-explanation">Equipment</div>
                       </div>
                   </div>
                   <div className="we-are-bottom-container">
-                      <div className="item">
-                          <div className="box">
-                              <div className="box-content">
-                                  <div className="box-content-icon">
-                                     <Icon name="like" size={24}/>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
+                        <BlueBox iconName="like"/>
                       <div className="numbers">
                           <div className="we-are-bottom-number">3928</div>
                           <div className="we-are-bottom-explanation"> Happy Clients</div>
                       </div>
                   </div>
                   <div className="we-are-bottom-container">
-                      <div className="item">
-                          <div className="box">
-                              <div className="box-content">
-                                  <div className="box-content-icon">
-                                      <Icon name="heart" size={24}/>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
+                      <BlueBox iconName="heart"/>
                       <div className="numbers">
                           <div className="we-are-bottom-number">55</div>
                           <div className="we-are-bottom-explanation"> Our Doctor</div>
