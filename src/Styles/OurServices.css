@@ -1,0 +1,131 @@
+.our-services-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:150px ;
+}
+.services-left-section{
+    display: flex;
+    width: 50%;
+}
+.services-left-section img{
+    width: 100%;
+    height:auto ;
+    max-height: 600px;
+    /*LG EKRANDA MAX WIDTHI KALDIR
+     // BÜYÜK EKRANDA MARGİN RİGHT EKLE !
+    . */
+}
+.services-right-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 85px;
+}
+
+.services-title-section .services-title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.services-title-section .services-title:before{
+    content: 'S';
+    font-family: lato,sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #202020;
+    line-height: 80px;
+    text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: -23px;
+    margin-left: -25px;
+    -ms-filter: "alpha(opacity=10)";
+    filter: alpha(opacity=10);
+    opacity: .1;
+}
+.services-title-section .services-title:after{
+    position: absolute;
+    left: 50%;
+    margin-left: -125.5px;
+    bottom: -39px;
+    background: url("https://themesflat.com/html/medicare/images/icon/line.png") no-repeat center center;
+    content: "";
+    width: 251px;
+    height: 12px;
+}
+.thin-services-paragraph{
+    margin-top: 80px;
+    color: #545454;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.treatments{
+    display: flex;
+}
+.treatments .left-col{
+    margin-right: 35px;
+    width: 48%;
+}
+.treatments .right-col{
+    width: 48%;
+}
+
+.mini-component{
+    max-width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.mini-explanation{
+    margin-right: 25px;
+}
+.mini-explanation-title{
+    padding-right: 20px;
+    text-align: right;
+    letter-spacing: 1.2px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.mini-explanation-title:before{
+    position: absolute;
+    top: 5px;
+    right: -15px;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: #202020;
+}
+.mini-explanation-paragraph{
+    letter-spacing: .7px;
+    text-align: right;
+}
+.right-col .mini-component{
+    text-align: left!important;
+}
+.right-col .mini-explanation{
+    margin-left:25px ;
+}
+.right-col .mini-explanation-title{
+    padding-left: 40px;
+    text-align: left!important;
+}
+.right-col .mini-explanation-title:before{
+    left: 10px!important;
+}
+.right-col .mini-explanation-paragraph{
+    text-align: left!important;
+}
