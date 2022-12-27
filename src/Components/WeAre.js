@@ -26,7 +26,12 @@ function WeAre() {
                       <p className="we-are-paragraph">
                           Morbi mattis sollicitudin libero ut finibus. Morbi imperdiet tortor ex, ut convallis nisi vestibulum eget. Phasellus hendrerit ut erat eget pharetra.
                       </p>
+
+
                       <div style={{maxWidth: '24%', flexWrap:'nowrap', marginTop: '50px'}}>
+                          {/*
+                          Bu satırla ilgili media-query'e göre max-width ayarı yapılacak
+                          */}
                           <DarkButton text="OUR TEAM" iconName="user"/>
                       </div>
                   </div>

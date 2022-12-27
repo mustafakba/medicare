@@ -1,0 +1,145 @@
+.advantages-container{
+    width: 100%;
+    padding: 80px;
+    background: #f5f5f5;
+}
+.title-section .title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.title-section .title:before{
+    content: 'A';
+    font-family: lato,sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #202020;
+    line-height: 80px;
+    text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: -23px;
+    margin-left: -25px;
+    -ms-filter: "alpha(opacity=10)";
+    filter: alpha(opacity=10);
+    opacity: .1;
+}
+.title-section .title:after{
+    position: absolute;
+    left: 50%;
+    margin-left: -125.5px;
+    bottom: -39px;
+    background: url("https://themesflat.com/html/medicare/images/icon/line.png") no-repeat center center;
+    content: "";
+    width: 251px;
+    height: 12px;
+}
+.title .bold-title{
+    margin-left: 10px;
+    font-weight: 700;
+}
+.advantages-content{
+    margin-top: 100px;
+    justify-content: space-between;
+    display: flex;
+}
+.advantages-left-section{
+    display: flex;
+    justify-content: end;
+    width: 55%;
+    z-index: 3;
+    margin-top: 56px;
+    margin-right: -80px;
+}
+.advantages-box{
+    background: #ffffff;
+    padding: 85px;
+    width: 652px;
+    height: 529px;
+}
+.advantages-right-section{
+    width: 50%;
+
+}
+.advantages-we-are-bottom-container{
+    display: flex;
+    margin-top: 100px;
+}
+.advantages-bottom-container{
+    display: flex;
+    justify-content: space-between;
+}
+.advantages-item .advantages-box{
+    transform: rotate(-45deg);
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+}
+.advantages-item .advantages-box:hover{
+    border: 1px solid #2BB0EF;
+    max-width: 72px;
+    max-height: 72px;
+}
+.advantages-item .advantages-box .advantages-box-content{
+    color: white;
+    align-items: center;
+    height: 56px;
+    display: flex;
+    justify-content:center ;
+    width: 56px;
+    background: #000000;
+}
+.advantages-item .advantages-box .advantages-box-content:hover{
+    background: #2BB0EF;
+    border: 1px solid #2BB0EF;
+}
+.advantages-box-content-icon{
+    transform: rotate(45deg);
+}
+.advantages-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+}
+.advantages-title:after{
+    position: absolute;
+    left: 50%;
+    top: 46px;
+    width: 30px;
+    height: 2px;
+    background-color: #202020;
+    content: "";
+    margin-left: -15px;
+
+}
+.advantages-explanation{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.advantages-explanation p{
+    width: 100%;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.advantage-button-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}

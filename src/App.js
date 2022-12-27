@@ -2,6 +2,7 @@ import './style.css'
 import Header from './Components/Shared/Header'
 import Slider from "./Components/Slider";
 import WeAre from "./Components/WeAre";
+import Advantages from "./Components/Advantages";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         {/*  WhoWeAre section start*/}
             <WeAre></WeAre>
          {/* WhoWeAre Section finished*/}
+        {/*  Advantages section start*/}
+            <Advantages></Advantages>
+         {/* Advantages Section finished*/}
 
 
 
