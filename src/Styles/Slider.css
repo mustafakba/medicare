@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+
+.prev-next{
+    padding: 20px;
+    border: 1px solid #545454;
+    background: transparent;
+    transition: .3s all ease-in-out;
+}
+.splide__arrow{
+    background:transparent;
+}
+.prev-next:hover{
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+}
+.splide-img{
+    width: 100%;
+}
+.content{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    max-width: 600px;
+}
+.content .explanation{
+    margin-top: 25px;
+    border-left:3px solid #545454 ;
+    padding-left: 30px;
+    font-size: 30px;
+}
+.content .title{
+    font-size: 80px;
+}
+.content-dental-health{
+    max-width: 800px;
+}
+.title-dental-health{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.content-high-quality{
+    position: absolute;
+    top: 32%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-quality{
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-size: 48px;
+    font-family: 'Caramel', cursive;
+}
+.explanation-quality{
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    color: #ffffff;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    font-size: 60px;
+    margin-top: 25px;
+    font-weight: 600;
+}
+.line-quality{
+    margin-top: 54px;
+    margin-bottom: 44px;
+    width: 50px;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+}
+.buttons-area{
+    display: flex;
+}
