@@ -1,19 +1,20 @@
-.button-side{
+.white-button-side{
     margin-top: 35px;
     font-weight: 500;
-    width: 32%;
+    width: auto;
     display: flex;
     transition: color .4s linear;
     position: relative;
+    color: #ffffff;
 }
-.button-side:hover .button-left-side,.button-side:hover  .button-right-side {
+.white-button-side:hover .white-button-left-side,.white-button-side:hover  .white-button-right-side {
     color: rgba(255, 255, 255, 0.8);
     z-index: 2;
     transition: color .4s linear;
     cursor: pointer;
 
 }
-.button-side::before{
+.white-button-side::before{
     content: "";
     position: absolute;
     left:0;
@@ -26,16 +27,16 @@
     transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
     transform: scaleX(0);
 }
-.button-side:hover::before{
+.white-button-side:hover::before{
     transform: scaleX(1);
 
 }
-.button-left-side{
-    border: 1px solid #545454;
+.white-button-left-side{
+    border: 1px solid #ffffff;
     padding: 10px 20px ;
 }
-.button-right-side{
-    border: 1px solid #545454;
+.white-button-right-side{
+    border: 1px solid #ffffff;
     border-left: 0px;
     padding: 10px 10px;
 }

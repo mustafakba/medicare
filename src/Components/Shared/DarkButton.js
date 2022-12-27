@@ -1,8 +1,7 @@
-import {RiPencilFill} from "react-icons/ri";
-import styles from '../../Styles/TheButton.css'
+import styles from '../../Styles/DarkButton.css'
 import {Icon} from '../Icons'
 
-function TheButton({text,iconName}) {
+function DarkButton({text,iconName}) {
     return (
         <div className={styles}>
             <div className="button-side">
@@ -17,4 +16,4 @@ function TheButton({text,iconName}) {
     );
 }
 
-export default TheButton;
+export default DarkButton;
