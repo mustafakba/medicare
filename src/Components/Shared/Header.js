@@ -1,4 +1,4 @@
-import styles from '../../Styles/Header.modules.css'
+import styles from '../../Styles/Header.css'
 function Header() {
     return (
         <div className="{styles}">
