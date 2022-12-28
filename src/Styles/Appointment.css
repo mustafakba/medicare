@@ -1,0 +1,173 @@
+.appointment-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+    margin-bottom: 200px;
+    background-color: #ffffff;
+
+}
+.appointment-left-container{
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+    margin-top:100px;
+}
+.appointment-title-section .appointment-title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: -30px;
+}
+.appointment-title-section .appointment-title:before{
+    content: 'M'!important;
+    font-size: 80px;
+    font-weight: 700;
+    color: #202020;
+    line-height: 80px;
+    text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: -15px;
+    margin-left: -25px;
+    -ms-filter: "alpha(opacity=10)";
+    filter: alpha(opacity=10);
+    opacity: .1;
+}
+.appointment-title-section .appointment-title:after{
+    position: absolute;
+    left: 50%;
+    margin-left: -125.5px;
+    bottom: -39px;
+    background: url("https://themesflat.com/html/medicare/images/icon/line.png") no-repeat center center;
+    content: "";
+    width: 251px;
+    height: 12px;
+}
+.appointment-bold-title{
+    margin-left: 15px;
+}
+
+.appointment-right-container{
+    display: flex;
+    width: 50%;
+    background: url("https://themesflat.com/html/medicare/images/bg-testimonials-home1.jpg") no-repeat center;
+    background-size: cover;
+    padding: 174px 70px 174px 80px;
+    margin-left: auto;
+}
+.form-area{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form-infos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.info-area{
+    display: flex;
+    width: 100%;
+    margin-bottom: 13px;
+    position: relative;
+
+}
+.top-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-area:first-child{
+    margin-top: 0;
+}
+.info-area::before{
+    content: "";
+    width: 4px;
+    height: 4px;
+    background-color: #202020;
+    position: absolute;
+    bottom: -2px;
+    transition: all .3s ease 0s;
+    transform: rotate(45deg);
+    z-index :2;
+}
+.left-form{
+    margin-right: 20px;
+}
+.info-area .text-item{
+    padding-bottom: 10px;
+    padding-top: 30px;
+    width:320px ;
+    position: relative;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #202020;
+    display: flex;
+    font-style: italic;
+    transition: .3s;
+}
+.info-area select{
+    padding-bottom: 10px;
+    padding-top: 30px;
+    width:320px ;
+    position: relative;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #202020;
+    display: flex;
+    font-style: italic;
+    transition: .3s;
+}
+.info-area select:focus{
+    outline: none;
+}
+.text-item:focus{
+    outline: none;
+    border-color: #2bb0ef;
+}
+.text-item:hover{
+    border-color: #2bb0ef;
+}
+textarea:focus{
+    border-color: #2bb0ef;
+    outline: none;
+}
+textarea:focus{
+    border-color: #2bb0ef;
+}
+.info-area textarea{
+    width: 200%;
+}
+.info-area input::placeholder{
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #202020;
+}
+.date-and-time{
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    margin-top: 25px;
+    width: 100%;
+}
+.date-and-time span{
+    color: #545454;
+    margin-bottom: 10px;
+}
+.text-area{
+    display: block;
+}
+.text-area .text-item{
+    display: block;
+    height: 200px;
+    width: 80%!important;
+}
