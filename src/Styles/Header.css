@@ -8,6 +8,8 @@
     background: #fff;
     color: #545454;
     font-family: sans-serif;
+    position: fixed;
+    z-index: 55;
 }
 .logo{
     cursor: pointer;

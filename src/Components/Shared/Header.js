@@ -1,7 +1,7 @@
 import styles from '../../Styles/Header.css'
 function Header() {
     return (
-        <div className="{styles}">
+        <div className={styles}>
            <div className="container">
                <div className="logo">
                    <img src="https://themesflat.com/html/medicare/images/logo.png" alt=""/>
