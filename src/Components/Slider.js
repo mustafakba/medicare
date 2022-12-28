@@ -10,7 +10,7 @@ import {Icon} from "./Icons";
 function Slider() {
     return (
         <div className={styles}>
-            <Splide aria-label="My Splide Images">
+            <Splide aria-label="My Favorite Images">
                 <SplideSlide>
                     <img className="splide-img" src="https://themesflat.com/html/medicare/images/slides/1.jpg"
                          alt="slider-one"/>
