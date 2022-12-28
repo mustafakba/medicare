@@ -44,7 +44,6 @@ function OurPricing() {
         ]
         )
 
-
     return(
         <div className={styles}>
             <div className="our-pricing-container">

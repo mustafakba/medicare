@@ -8,6 +8,8 @@ import OurPortfolio from "./Components/OurPortfolio";
 import OurDoctor from "./Components/OurDoctor";
 import OurPricing from "./Components/OurPricing";
 import Jobs from "./Components/Jobs";
+import Appointment from "./Components/Appointment";
+import LatestBlog from "./Components/LatestBlog";
 
 function App() {
   return (
@@ -44,9 +46,17 @@ function App() {
             <OurPricing></OurPricing>
          {/* OurPortfolio Section finished*/}
 
- {/*  Jobs section start*/}
+        {/*  Jobs section start*/}
             <Jobs></Jobs>
          {/* Jobs Section finished*/}
+
+        {/*  Appointment section start*/}
+            <Appointment></Appointment>
+         {/* Appointment Section finished*/}
+
+        {/*  LatestBlog section start*/}
+            <LatestBlog></LatestBlog>
+         {/* LatestBlog Section finished*/}
 
 
 
