@@ -8,6 +8,8 @@
     background-color: #ffffff;
 
 }
+
+/*LEFT SECTION FORM SECTION STARTED*/
 .appointment-left-container{
     flex-direction: column;
     display: flex;
@@ -54,14 +56,7 @@
     margin-left: 15px;
 }
 
-.appointment-right-container{
-    display: flex;
-    width: 50%;
-    background: url("https://themesflat.com/html/medicare/images/bg-testimonials-home1.jpg") no-repeat center;
-    background-size: cover;
-    padding: 174px 70px 174px 80px;
-    margin-left: auto;
-}
+
 .form-area{
     margin-top: 70px;
     display: flex;
@@ -168,6 +163,99 @@ textarea:focus{
 }
 .text-area .text-item{
     display: block;
-    height: 200px;
+    height: 150px;
     width: 80%!important;
+}
+/*LEFT SECTION FORM SECTION ENDED*/
+/* RİGHT SECTİON STARTED*/
+.appointment-right-container{
+    display: flex;
+    width: 50%;
+    background: url("https://themesflat.com/html/medicare/images/bg-testimonials-home1.jpg") no-repeat center;
+    background-size: cover;
+    padding: 174px 70px 174px 80px;
+    margin-left: auto;
+    text-align: center;
+}
+.appointment-right-container .appointment-img{
+}
+.appointment-card{
+    padding:70px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    opacity: .80;
+}
+.appointment .quotes{
+    color: #2bb0ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #2bb0ef;
+    border-radius: 50%;
+    background-color: #2bb0ef;
+    padding: 30px;
+}
+.quotes-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #11adf3;
+    border-radius: 50%;
+    background-color: #11adf3;
+    padding: 15px;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+.appointment-paragraph{
+    width: 90%;
+    font-style: italic;
+    margin-bottom: 30px;
+    font-size: 17px;
+    text-align: center;
+}
+.appointment-author{
+    margin-top: 25px;
+}
+.appointment-author{
+    position: relative;
+
+}
+.appointment-author:before{
+    position: absolute;
+    content: '';
+    height: 15px;
+    width: 1px;
+    top: -30px;
+    left: 50%;
+    background-color: #2bb0ef;
+}
+.appointment-author-name{
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: .8px;
+}
+.appointment-job{
+    font-size: 12px;
+}
+
+
+/*Slider - img */
+.prev-next2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px !important;
+    background-color: #000000;
+    transition: .3s all ease-in-out;
+    color: #ffffff;
+}
+.splide__arrow{
+    background:transparent;
+}
+.prev-next2:hover{
+}
+.splide-img{
 }

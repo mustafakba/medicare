@@ -5,16 +5,20 @@
     border: 1px solid #545454;
     background: transparent;
     transition: .3s all ease-in-out;
+    z-index: 65;
 }
 .splide__arrow{
     background:transparent;
+    z-index: 55;
 }
 .prev-next:hover{
     background: rgba(0, 0, 0, 0.8);
     color: #ffffff;
+    z-index: 55;
 }
 .splide-img{
     width: 100%;
+    z-index: 55;
 }
 .content{
     position: absolute;

@@ -2,6 +2,9 @@ import styles from '../Styles/Appointment.css'
 import React, { useState } from 'react';
 import DateTimePicker from 'react-datetime-picker';
 import DarkButton from "./Shared/DarkButton";
+import {Icon} from "./Icons";
+import {Splide, SplideSlide} from '@splidejs/react-splide';
+
 
 
 function Appointment(){
@@ -57,7 +60,61 @@ function Appointment(){
                 </div>
                 <div className="appointment-right-container">
                     <div className="appointment-img">
-                        SLİDE GELECEK
+                        <Splide aria-label="My Favorite Images">
+                            <SplideSlide>
+                                <div className="appointment-card">
+                                    <div className="quotes">
+                               <span className="quotes-icon">
+                                    <Icon name="quotes" size={24} />
+                               </span>
+                                    </div>
+                                    <p className="appointment-paragraph">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus aliquid atque dolorum laborum natus similique! Aspernatur libero mollitia voluptas.Lorem ipsum Mustafa Kaba
+                                    </p>
+                                    <div className="appointment-author">
+                                        <div className="appointment-author-name">
+                                            CAROLINE LADY
+                                        </div>
+                                        <span className="appointment-job">
+                                    Web Design
+                                </span>
+                                    </div>
+                                </div>
+                            </SplideSlide>
+                            <SplideSlide>
+                                <div className="appointment-card">
+                                    <div className="quotes">
+                               <span className="quotes-icon">
+                                    <Icon name="quotes" size={24} />
+                               </span>
+                                    </div>
+                                    <p className="appointment-paragraph">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus aliquid atque dolorum laborum natus similique! Aspernatur libero mollitia voluptas.Lorem ipsum Mustafa Kaba
+                                    </p>
+                                    <div className="appointment-author">
+                                        <div className="appointment-author-name">
+                                            CAROLINE LADY
+                                        </div>
+                                        <span className="appointment-job">
+                                    Web Design
+                                </span>
+                                    </div>
+                                </div>
+                            </SplideSlide>
+
+                            <div className=".appointment-slider splide__arrows">
+                                <button className="splide__arrow splide__arrow--prev">
+                                    <span style={{marginLeft: '-10px',zIndex:'55'}} className="prev-next2">
+                                        <Icon style={{rotate: '180deg', marginLeft: '10px'}} name="arrowR" size="12"/>
+                                    </span>
+                                </button>
+                                <button className="splide__arrow splide__arrow--next">
+                                    <span style={{marginRight: '-7px'}} className="prev-next2">
+                                            <Icon name="arrowR" size="12"/>
+                                    </span>
+                                </button>
+                            </div>
+                        </Splide>
                     </div>
                 </div>
             </div>

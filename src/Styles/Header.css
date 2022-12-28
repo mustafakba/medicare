@@ -9,6 +9,7 @@
     color: #545454;
     font-family: sans-serif;
     position: fixed;
+    width: 100%;
     z-index: 55;
 }
 .logo{
