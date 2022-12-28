@@ -137,6 +137,9 @@ body {
     border-top: none;
     padding-bottom: 45px;
 }
+.pricing-card:last-child{
+    margin-right: 0;
+}
 .wrap-plan{
     text-align: center;
     margin-top: -23px;

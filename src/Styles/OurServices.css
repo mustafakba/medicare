@@ -35,6 +35,10 @@
     font-weight: 500;
     margin-top: 30px;
 }
+.services-title-section .services-bold-title{
+    margin-left:15px;
+    font-weight: 700;
+}
 .services-title-section .services-title:before{
     content: 'S';
     font-family: lato,sans-serif;

@@ -19,7 +19,7 @@ function Slider() {
                         <div className="explanation">
                             A full range of cosmetic dentistry treatment to improve Your smile!
                         </div>
-                        <div style={{maxWidth: '32%', marginTop: '50px'}}>
+                        <div style={{display:'flex', marginTop: '50px'}}>
                             <DarkButton text="APPOINTMENT" iconName="pencil"/>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ function Slider() {
                         <div style={{marginTop: '50px'}} className="explanation">
                             The Latest Trends In Esthetic Dental Care
                         </div>
-                        <div style={{maxWidth: '29%', marginTop: '50px'}}>
+                        <div style={{display:'flex', marginTop: '50px'}}>
                             <DarkButton text="APPOINTMENT" iconName="pencil"/>
                         </div>
                     </div>

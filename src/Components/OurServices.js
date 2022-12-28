@@ -28,7 +28,7 @@ function OurServices() {
                                     ORAL SURGERY
                                 </div>
                                 <div className="mini-explanation-paragraph">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, ullam.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </div>
                             </div>
                             <BlueBox iconName="syringe" />
@@ -39,7 +39,7 @@ function OurServices() {
                                     DENTAL CARE
                                 </div>
                                 <div className="mini-explanation-paragraph">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, ullam.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </div>
                             </div>
                             <BlueBox iconName="glass" />
@@ -50,7 +50,7 @@ function OurServices() {
                                     COSMETIC DENTISTRY
                                 </div>
                                 <div className="mini-explanation-paragraph">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, ullam.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </div>
                             </div>
                             <BlueBox iconName="tooth" />

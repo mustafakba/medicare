@@ -66,7 +66,6 @@ function OurPricing() {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                       <div className="relative">
                            <div className="pricing-card-container">
                                {
                                    values.map((value,index) => {
@@ -117,7 +116,6 @@ function OurPricing() {
                                    })
                                }
                            </div>
-                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className="relative">
