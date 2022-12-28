@@ -1,0 +1,185 @@
+
+.our-pricing-title-section .our-pricing-title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.our-pricing-title-section .our-pricing-title:before{
+    content: 'P';
+    font-family: lato,sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #202020;
+    line-height: 80px;
+    text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: -23px;
+    margin-left: -25px;
+    -ms-filter: "alpha(opacity=10)";
+    filter: alpha(opacity=10);
+    opacity: .1;
+}
+.our-pricing-title-section .our-pricing-title:after{
+    position: absolute;
+    left: 50%;
+    margin-left: -125.5px;
+    bottom: -39px;
+    background: url("https://themesflat.com/html/medicare/images/icon/line.png") no-repeat center center;
+    content: "";
+    width: 251px;
+    height: 12px;
+}
+.our-pricing-title-section .our-pricing-bold-title{
+    margin-left: 10px;
+    font-weight: 700;
+}
+.our-pricing-container{
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto
+;
+}
+.our-pricing-thin-explanation{
+    font-size: 14px;
+    margin-top: 60px;
+    font-style: italic;
+    color: #545454;
+}
+.pricing-card-container{
+
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricing-card{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    border: 1px solid rgba(84, 84, 84, 0.3);
+    border-top: none;
+    padding-bottom: 45px;
+}
+.wrap-plan{
+    text-align: center;
+    margin-top: -23px;
+}
+.plan{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #fff;
+    background-color: #2bb0ef;
+    padding: 10px 46px;
+    position: relative;
+    text-align: center;
+}
+.plan:before{
+    width: 0;
+    height: 0;
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -7px;
+    bottom: -10px;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 10px solid #2bb0ef;
+}
+.pricing-features{
+    padding:44px 60px 0 67px;
+    margin-bottom: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.pricing-right-side .pricing-features-item{
+    opacity: .85;
+    font-size: 14px;
+    margin-bottom: 20.5px;
+}
+.pricing-right-side .pricing-features-item:last-child{
+    margin-bottom: 0;
+}
+.pricing-left-side{
+    font-size: 14px;
+    margin-right: 10px;
+}
+.pricing-right-side{
+    margin-left: 10px;
+}
+.pricing-left-side .icon-type{
+    margin-bottom: 20.5px;
+}
+.pricing-left-side .icon-type:last-child{
+    margin-bottom: 0;
+}
+.pricing-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    margin-right: 35px;
+    position: relative;
+}
+.turkish-dolar{
+    align-items: start;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-right: 3px;
+}
+.price{
+    font-size: 45px;
+}
+.cta{
+    position:relative;
+    background-color: #2bb0ef;
+}
+.cta .pricing-button-area{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: #2bb0ef;
+    position: absolute;
+    bottom:50px;
+    opacity: 0;
+    transition: .6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.cta .pricing-button-area a{
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    color: #ffffff;
+    text-decoration:none;
+}
+
+.pricing-card:hover .cta .pricing-button-area{
+    bottom: -50px;
+    opacity: 1;
+}
+.pricing-button-area:hover{
+    background-color: #202020;
+}

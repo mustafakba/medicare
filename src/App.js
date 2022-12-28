@@ -6,6 +6,7 @@ import Advantages from "./Components/Advantages";
 import OurServices from "./Components/OurServices";
 import OurPortfolio from "./Components/OurPortfolio";
 import OurDoctor from "./Components/OurDoctor";
+import OurPricing from "./Components/OurPricing";
 
 function App() {
   return (
@@ -36,6 +37,10 @@ function App() {
 
         {/*  OurPortfolio section start*/}
             <OurDoctor></OurDoctor>
+         {/* OurPortfolio Section finished*/}
+
+         {/*  OurPortfolio section start*/}
+            <OurPricing></OurPricing>
          {/* OurPortfolio Section finished*/}
 
 

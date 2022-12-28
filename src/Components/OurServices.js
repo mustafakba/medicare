@@ -64,7 +64,7 @@ function OurServices() {
                                     ORAL SURGERY
                                 </div>
                                 <div className="mini-explanation-paragraph">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, ullam.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </div>
                             </div>
 
@@ -73,11 +73,11 @@ function OurServices() {
                             <BlueBox iconName="brush" />
                             <div className="mini-explanation">
                                 <div className="mini-explanation-title">
-                                    ORAL HYGIENIST
+                                    DENTAL CARE
 
                                 </div>
                                 <div className="mini-explanation-paragraph">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, ullam.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </div>
                             </div>
 
@@ -89,7 +89,7 @@ function OurServices() {
                                     CARE ADVICE
                                 </div>
                                 <div className="mini-explanation-paragraph">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, ullam.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </div>
                             </div>
 
