@@ -10,6 +10,7 @@ import OurPricing from "./Components/OurPricing";
 import Jobs from "./Components/Jobs";
 import Appointment from "./Components/Appointment";
 import LatestBlog from "./Components/LatestBlog";
+import GetTouch from "./Components/GetTouch";
 
 function App() {
   return (
@@ -56,6 +57,10 @@ function App() {
 
         {/*  LatestBlog section start*/}
             <LatestBlog></LatestBlog>
+         {/* LatestBlog Section finished*/}
+
+        {/*  LatestBlog section start*/}
+            <GetTouch></GetTouch>
          {/* LatestBlog Section finished*/}
 
 

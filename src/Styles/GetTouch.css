@@ -1,0 +1,15 @@
+.get-touch-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+
+}
+.get-touch-left-section{
+
+
+}
+.get-touch-right-section{
+    width: 50%;
+}
+

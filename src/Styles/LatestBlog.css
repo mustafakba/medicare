@@ -49,6 +49,7 @@
     text-align: center;
     flex-direction: column;
     background-color:#F8F8F8 ;
+    padding-bottom: 80px;
 }
 .blog-card{
     width: 40%;
