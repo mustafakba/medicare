@@ -2,21 +2,63 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 100px;
-
+    padding-bottom: 50px;
+    height: 100%;
 }
 .get-touch-left-section{
     width: 50%;
-
+    padding: 0!important;
+    height: 100%;
 }
 .get-touch-left-section .map{
     width: 100%;
-    height: 100%;
+    height: 634px;
     border:none;
 }
-
-
 .get-touch-right-section{
     width: 50%;
 }
+.divider{
+    height: 100px;
+}
+.touch-title-section{
+    margin-bottom: 100px;
+}
+.contact-form{
+    display: flex;
+    margin-top: 100px;
+    padding: 0 30px;
+}
+.wrap-input-form , .wrap-textarea{
+    width: 50%;
+    padding: 0 15px;
+}
+.wrap-textarea{
+    width: 50%;
+    padding: 0 15px;
+}
+.wrap-name{
+    outline: #11adf3;
+    width: 300px;
+    font-style: italic;
+    padding: 12px 20px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(84, 84, 84, 0.2);
+    transition: .3s;
+}
+.wrap-name:focus{
+    border-color: #11adf3;
+}
+.wrap-textarea textarea{
+    border: 1px solid rgba(84, 84, 84, 0.2);
 
+    transition: .3s;
+    font-style: italic;
+    width: 100%;
+    padding: 12px 20px;
+}
+.button-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
