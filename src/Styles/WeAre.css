@@ -122,7 +122,7 @@
     font-size: 13px;
     color: #545454;
 }
-
+/*TELEFON BAŞLANGIÇ */
 @media only screen and (min-width: 0px) and (max-width: 576px) {
 
     .container-we-are{
@@ -189,6 +189,9 @@
         font-size: 25px;
     }
 }
+/*TELEFON BİTİŞ */
+/*IPAD AİR BAŞLANGIÇ */
+
 @media only screen and (min-width: 768px) and (max-width:992px) {
     .container-we-are{
         width: 750px;
@@ -259,8 +262,10 @@
     }
 
 }
-
+/*IPAD AİR BİTİŞ */
+/*BİLGİSAYAR EKRANI BAŞLANGIÇ*/
 @media only screen and (min-width: 993px) and (max-width:1400px) {
+    /*BİLGİSAYAR EKRANI BİTİŞ*/
 
 
 }
