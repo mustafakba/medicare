@@ -1,0 +1,49 @@
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background:#191919 ;
+    padding:100px 200px;
+}
+.footer-box{
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 66px 30px 72px 40px;
+    border: 1px solid #545454;
+    color: rgba(230, 230, 230, 0.5);
+    width: 100%;
+    height: 100%;
+}
+.box-title{
+    width: 80px;
+    height: 40px;
+}
+
+.box-title img{
+    width: 100px;
+}
+.box-title .contact-us, .box-title .working-hours {
+    color: #ffffff;
+    font-size: 15px;
+    white-space: nowrap;
+    position: relative;
+    margin-left: 20px;
+}
+.box-title .contact-us:before, .box-title .working-hours:before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 10px;
+    top: 7px;
+    left: -18px;
+    background: white;
+}
+.box-content{
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+    letter-spacing: .3px;
+    font-weight: 400;
+}

@@ -11,6 +11,7 @@ import Jobs from "./Components/Jobs";
 import Appointment from "./Components/Appointment";
 import LatestBlog from "./Components/LatestBlog";
 import GetTouch from "./Components/GetTouch";
+import Footer from "./Components/Shared/Footer";
 
 function App() {
   return (
@@ -62,6 +63,12 @@ function App() {
         {/*  LatestBlog section start*/}
             <GetTouch></GetTouch>
          {/* LatestBlog Section finished*/}
+
+
+        {/*  LatestBlog section start*/}
+            <Footer></Footer>
+         {/* LatestBlog Section finished*/}
+
 
 
 
