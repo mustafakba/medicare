@@ -9,6 +9,7 @@ import 'swiper/css';
 
 // import required modules
 import { Pagination } from "swiper";
+import TopTitle from "./Shared/TopTitle";
 
 
 function OurPricing() {
@@ -48,10 +49,7 @@ function OurPricing() {
         <div className={styles}>
             <div className="our-pricing-container">
                 <div className="our-pricing-title-section">
-                    <div className="our-pricing-title">
-                        <span>OUR </span>
-                        <span className="our-pricing-bold-title"> PRICING</span>
-                    </div>
+                    <TopTitle backgroundLetter={"P"} secondWord={"PRICING"} firstWord={"OUR"} />
                     <div className="our-pricing-thin-explanation">
                         <p>Lorem ipsum dolor sit amet sed tincidunt suscipit id malesuada.
                         </p>

@@ -4,6 +4,7 @@ import DateTimePicker from 'react-datetime-picker';
 import DarkButton from "./Shared/DarkButton";
 import {Icon} from "./Icons";
 import {Splide, SplideSlide} from '@splidejs/react-splide';
+import TopTitle from "./Shared/TopTitle";
 
 
 
@@ -14,12 +15,7 @@ function Appointment(){
         <div style={styles}>
             <div className="appointment-container">
                 <div className="appointment-left-container">
-                    <div className="appointment-title-section">
-                            <div className="appointment-title">
-                                <span>MAKE </span>
-                                <span className="appointment-bold-title"> AN<strong>APPOINTMENT</strong></span>
-                            </div>
-                    </div>
+                    <TopTitle backgroundLetter={"M"} firstWord={"MAKE"} secondWord={"APPOINTMENT"} />
                     <form className="form-area" action="">
                         <div className="form-infos">
                            <div className="top-form">

@@ -1,15 +1,11 @@
 import styles from '../Styles/OurPortfolio.css'
+import TopTitle from "./Shared/TopTitle";
 
 function OurPortfolio() {
     return (
         <div style={styles}>
             <div className="our-portfolio-container">
-                <div className="portfolio-title-section">
-                    <div className="portfolio-title">
-                        <span>OUR </span>
-                        <span className="portfolio-bold-title">PORTFOLIO</span>
-                    </div>
-                </div>
+               <TopTitle firstWord={"OUR"} secondWord={"PORTFOLIO"} backgroundLetter={"P"} />
                 <ul className="portfolio-types">
                     <li className="portfolio-type active">
                         <a href="#" id="">ALL</a>

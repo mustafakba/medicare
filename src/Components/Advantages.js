@@ -3,6 +3,7 @@ import {Icon} from "./Icons";
 import {BrowserRouter as Router} from 'react-router-dom'
 import DarkButton from "./Shared/DarkButton";
 import {useState} from 'react'
+import TopTitle from "./Shared/TopTitle";
 
 function Advantages() {
     const [activeIndex, setActiveIndex] = useState(0)
@@ -12,12 +13,7 @@ function Advantages() {
        <Router>
            <div className={styles}>
                <div className="advantages-container">
-                   <div className="title-section">
-                       <div className="title">
-                           <span>OUR </span>
-                           <span className="bold-title"> ADVANTAGES</span>
-                       </div>
-                   </div>
+                    <TopTitle firstWord={"OUR"} secondWord={"ADVANTAGES"} backgroundLetter={"A"} />
                    <div className="advantages-content">
                        <div className="advantages-left-section">
                            <div className="advantages-box">

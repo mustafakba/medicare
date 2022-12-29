@@ -1,5 +1,6 @@
 import styles from '../Styles/OurServices.css'
 import BlueBox from "./Shared/BlueBox";
+import TopTitle from "./Shared/TopTitle";
 
 
 
@@ -11,12 +12,7 @@ function OurServices() {
                     <img src="https://themesflat.com/html/medicare/images/blog/services.jpg" alt=""/>
                 </div>
             <div className="services-right-section">
-                <div className="services-title-section">
-                    <div className="services-title">
-                        <span>OUR </span>
-                        <span className="services-bold-title"> SERVICES</span>
-                    </div>
-                </div>
+                <TopTitle backgroundLetter={"S"} secondWord={"SERVICES"} firstWord={"OUR"} />
                 <div className="thin-services-paragraph">
                     Lorem ipsum dolor sit amet sed tincidunt suscipit id malesuada.
                 </div>

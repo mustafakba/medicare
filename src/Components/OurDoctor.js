@@ -1,14 +1,11 @@
 import styles from '../Styles/OurDoctor.css'
 import {Icon} from "./Icons";
+import TopTitle from "./Shared/TopTitle";
 function OurDoctor() {
     return(
         <div style={styles}>
             <div className="our-doctor-container">
-                <div className="our-doctor-title-section">
-                    <div className="our-doctor-title">
-                            <span>OUR </span>
-                            <span className="our-doctor-bold-title"> DOCTORS</span>
-                    </div>
+                <div className="our-doctor-title">                <TopTitle backgroundLetter={"D"} secondWord={"DOCTOR"} firstWord={"OUR"} />
                 </div>
                 <div className="our-doctor-inner-section">
                     <div className="our-doctor-left-section">

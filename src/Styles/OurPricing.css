@@ -61,47 +61,47 @@ body {
 }
 
 /*SWİPER BİTİŞ*/
-.our-pricing-title-section .our-pricing-title{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    font-weight: 500;
-    margin-top: 30px;
-}
-.our-pricing-title-section .our-pricing-title:before{
-    content: 'P';
-    font-family: lato,sans-serif;
-    font-size: 80px;
-    font-weight: 700;
-    color: #202020;
-    line-height: 80px;
-    text-align: center;
-    margin-bottom: 0;
-    text-transform: uppercase;
-    position: absolute;
-    left: 50%;
-    top: -23px;
-    margin-left: -25px;
-    -ms-filter: "alpha(opacity=10)";
-    filter: alpha(opacity=10);
-    opacity: .1;
-}
-.our-pricing-title-section .our-pricing-title:after{
-    position: absolute;
-    left: 50%;
-    margin-left: -125.5px;
-    bottom: -39px;
-    background: url("https://themesflat.com/html/medicare/images/icon/line.png") no-repeat center center;
-    content: "";
-    width: 251px;
-    height: 12px;
-}
-.our-pricing-title-section .our-pricing-bold-title{
-    margin-left: 10px;
-    font-weight: 700;
-}
+/*.our-pricing-title-section .our-pricing-title{*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    font-size: 30px;*/
+/*    font-weight: 500;*/
+/*    margin-top: 30px;*/
+/*}*/
+/*.our-pricing-title-section .our-pricing-title:before{*/
+/*    content: 'P';*/
+/*    font-family: lato,sans-serif;*/
+/*    font-size: 80px;*/
+/*    font-weight: 700;*/
+/*    color: #202020;*/
+/*    line-height: 80px;*/
+/*    text-align: center;*/
+/*    margin-bottom: 0;*/
+/*    text-transform: uppercase;*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    top: -23px;*/
+/*    margin-left: -25px;*/
+/*    -ms-filter: "alpha(opacity=10)";*/
+/*    filter: alpha(opacity=10);*/
+/*    opacity: .1;*/
+/*}*/
+/*.our-pricing-title-section .our-pricing-title:after{*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    margin-left: -125.5px;*/
+/*    bottom: -39px;*/
+/*    background: url("https://themesflat.com/html/medicare/images/icon/line.png") no-repeat center center;*/
+/*    content: "";*/
+/*    width: 251px;*/
+/*    height: 12px;*/
+/*}*/
+/*.our-pricing-title-section .our-pricing-bold-title{*/
+/*    margin-left: 10px;*/
+/*    font-weight: 700;*/
+/*}*/
 .our-pricing-container{
     padding-bottom: 100px;
     padding-right: 100px;

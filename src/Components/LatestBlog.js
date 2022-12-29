@@ -7,6 +7,7 @@ import {AiOutlineCalendar} from 'react-icons/ai'
 import {AiOutlineUser} from 'react-icons/ai'
 import {FaRegComment} from 'react-icons/fa'
 import {BiLike} from 'react-icons/bi'
+import TopTitle from "./Shared/TopTitle";
 
 
 function LatestBlog() {
@@ -39,13 +40,9 @@ function LatestBlog() {
     return(
         <div style={styles}>
             <div className="latest-blog-container">
-                <div className="latest-blog-title-section">
-                    <div className="latest-blog-title">
-                        <span>LATEST </span>
-                        <span className="latest-blog-bold-title">BLOG</span>
-                    </div>
-                </div>
-
+                <span className="latest-blog-title">
+                                    <TopTitle backgroundLetter={"B"} secondWord={"BLOG"} firstWord={"LATEST"} />
+                </span>
                     <div className="blog-card">
                         {
                             blogs.map((blog,index) => {
