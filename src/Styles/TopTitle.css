@@ -1,0 +1,34 @@
+.title-component-section{
+    font-family: lato,sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #202020;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 39px;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 2.3px;
+}
+.background-letter{
+    color: rgba(84, 84, 84, 0.1);
+    font-size: 80px;
+    top: 0px;
+    left: calc(50% - 30px);
+    font-weight: 700;
+    filter: alpha(opacity=10);
+    position: absolute;
+}
+.title-component-section .title-component-title:after{
+    position: absolute;
+    left: 50%;
+    margin-left: -125.5px;
+    bottom: -39px;
+    background: url("https://themesflat.com/html/medicare/images/icon/line.png") no-repeat center center;
+    content: "";
+    width: 251px;
+    height: 12px;
+}
+.second-word{
+    font-weight: 700;
+}
