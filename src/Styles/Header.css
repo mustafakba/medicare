@@ -77,11 +77,17 @@
     cursor:pointer;
 
 }
-.mobile-menu img{
-    width: 16px;
-    height: 16px;
-}
+/*.mobile-menu img{*/
+/*    width: 16px;*/
+/*    height: 16px;*/
+/*}*/
+
+
+    /*IPHONE MEDIA QUERY*/
     @media only screen and (min-width: 0px) and (max-width: 576px) {
+        .container{
+            padding-right: 30px;
+        }
         .menuItems{
             display: none;
         }
@@ -89,15 +95,18 @@
         .language-section{
             display: none;
         }
-        .mobile-menu{
+
+        .responsive-menu{
             display: block;
-            position: fixed;
-            left: 350px;
         }
 
-
     }
+/*IPHONE MEDIA QUERY BİTİŞ*/
+/*IPAD MEDIA QUERY BAŞLANGIÇ*/
   @media only screen and (min-width: 768px) and (max-width:992px) {
+      .container{
+          padding-right: 30px;
+      }
       .menuItems{
           display: none;
       }
@@ -105,18 +114,22 @@
       .language-section{
           display: none;
       }
-      .mobile-menu{
+
+      .responsive-menu{
+          margin-right: 50px;
           display: block;
-          position: fixed;
-          left: 750px;
+      }
+      .mobile-menu{
       }
 
     }
-
-@media only screen and (min-width: 992px) and (max-width:2000px) {
-    .mobile-menu{
-        display: none;
+/*IPAD MEDIA QUERY BİTİŞ*/
+/*LG EKRAN BAŞLANGIÇ */
+@media only screen and (min-width: 992px) and (max-width:2800px) {
+    .responsive-menu{
+        display:none;
     }
 
 }
+/*LG EKRAN BİTİŞ */
 
