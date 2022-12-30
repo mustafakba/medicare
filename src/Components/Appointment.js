@@ -97,19 +97,6 @@ function Appointment(){
                                     </div>
                                 </div>
                             </SplideSlide>
-
-                            <div className=".appointment-slider splide__arrows">
-                                <button className="splide__arrow splide__arrow--prev">
-                                    <span style={{marginLeft: '-10px',zIndex:'55'}} className="prev-next2">
-                                        <Icon style={{rotate: '180deg', marginLeft: '10px'}} name="arrowR" size="12"/>
-                                    </span>
-                                </button>
-                                <button className="splide__arrow splide__arrow--next">
-                                    <span style={{marginRight: '-7px'}} className="prev-next2">
-                                            <Icon name="arrowR" size="12"/>
-                                    </span>
-                                </button>
-                            </div>
                         </Splide>
                     </div>
                 </div>

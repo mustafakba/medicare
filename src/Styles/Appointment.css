@@ -200,19 +200,94 @@ textarea:focus{
 
 
 /*Slider - img */
-.prev-next2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 6px !important;
-    background-color: #000000;
-    transition: .3s all ease-in-out;
-    color: #ffffff;
+.appointment-img .splide__arrow
+ {
+    border: 1px solid #777;
+    border-radius: 0;
+    width: 30px;
+    height: 30px;
+    color: #444;
+    background: transparent;
+    transition: .3s all ease;
 }
-.splide__arrow{
-    background:transparent;
+.splide__arrow:hover {
+    background: #000;
 }
-.prev-next2:hover{
+.splide__arrow:hover svg {
+    fill: #fff;
 }
-.splide-img{
+.splide__arrow svg {
+    width: 1em;
+    height: 1em;
+}
+
+/*MEDIA QUERY */
+
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+    .appointment-img .splide{
+        padding-top: 0!important;
+    }
+    .appointment-container{
+        flex-direction: column;
+    }
+    .appointment-left-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .top-form .left-form{
+        margin: 0;
+    }
+    .form-infos .top-form{
+        flex-direction: column;
+    }
+    .appointment-right-container{
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    .appointment-container{
+        flex-direction: column;
+    }
+    .appointment-left-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .top-form .left-form{
+        margin: 0;
+    }
+    .form-infos .top-form{
+        flex-direction: column;
+    }
+    .appointment-right-container{
+        padding: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .form-area{
+        width: 100%;
+        padding: 0 50px;
+    }
+    .form-area .form-infos{
+        width: 100%;
+    }
+    .form-infos .top-form{
+        width: 100%;
+    }
+    .left-form , .right-form{
+        width: 100%;
+    }
+    .info-area input , .info-area select{
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width:1400px) {
+
+
 }
