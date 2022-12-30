@@ -9,7 +9,7 @@ import {Icon} from "./Icons";
 
 function Slider() {
     return (
-        <div className={styles}>
+        <div className={`${styles} splide-wrapper`}>
             <Splide aria-label="My Favorite Images">
                 <SplideSlide>
                     <img className="splide-img" src="https://themesflat.com/html/medicare/images/slides/1.jpg"
@@ -54,23 +54,7 @@ function Slider() {
                     <img className="splide-img" src="https://themesflat.com/html/medicare/images/slides/3.jpg"
                          alt="slider-three"/>
                 </SplideSlide>
-
-                <div className="splide__arrows">
-                    <button className="splide__arrow splide__arrow--prev">
-                        <span style={{marginLeft: '50px'}} className="prev-next">
-                            <Icon style={{rotate: '180deg', marginLeft: '150px'}} name="arrowR" size="16"/>
-                        </span>
-                    </button>
-                    <button className="splide__arrow splide__arrow--next">
-                        <span style={{marginRight: '50px'}} className="prev-next">
-                                <Icon name="arrowR" size="16"/>
-                        </span>
-                    </button>
-                </div>
-
             </Splide>
-
-
         </div>
     );
 }
