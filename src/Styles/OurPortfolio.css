@@ -107,6 +107,97 @@
 
 }
 
+/*---  MEDIA QUERY --- */
+
+/*IPHONE BAŞLANGIÇ */
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+
+    .portfolio-types{
+        flex-wrap: wrap;
+
+    }
+    .portfolio-type:first-child{
+
+    }
+    .portfolio-type{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .portfolio-type a{
+        margin: 0;
+    }
+    .image-containers{
+        flex-direction: column;
+    }
+    .image-containers-left-section{
+        width: 100%;
+    }
+    .top-line-images{
+        flex-direction: column;
+    }
+    .top-line-images .left-image, .top-line-images .right-image{
+        width: 100%;
+    }
+    .image-containers-right-section{
+        width: 100%;
+        flex-direction: column;
+    }
+    .right-section-left-image{
+        width: 100%;
+    }
+    .right-section-right-images{
+        width: 100%;
+    }
+
+}
+/*IPHONE BİTİŞ */
+/*İPAD BAŞLANGIÇ*/
+@media only screen and (min-width: 768px) and (max-width:992px) {
+
+    .portfolio-types{
+        flex-wrap: wrap;
+
+    }
+    .portfolio-type:first-child{
+
+    }
+    .portfolio-type{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .portfolio-type a{
+        margin: 0;
+    }
+    .image-containers{
+        flex-direction: column;
+    }
+    .image-containers-left-section{
+        width: 100%;
+    }
+    .top-line-images{
+        flex-direction: column;
+    }
+    .top-line-images .left-image, .top-line-images .right-image{
+        width: 100%;
+    }
+    .image-containers-right-section{
+        width: 100%;
+        flex-direction: column;
+    }
+    .right-section-left-image{
+        width: 100%;
+    }
+    .right-section-right-images{
+        width: 100%;
+    }
+
+}
+/*İPAD BİTİŞ*/
+
+
+@media only screen and (min-width: 993px) and (max-width:1400px) {
+
+}
 
 
 
