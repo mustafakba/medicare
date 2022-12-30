@@ -116,10 +116,10 @@
       }
 
       .responsive-menu{
-          margin-right: 50px;
           display: block;
       }
-      .mobile-menu{
+      .mobile-menu-item{
+          font-size: 18px;
       }
 
     }
@@ -129,6 +129,7 @@
     .responsive-menu{
         display:none;
     }
+
 
 }
 /*LG EKRAN BİTİŞ */
