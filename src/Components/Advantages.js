@@ -8,7 +8,15 @@ import TopTitle from "./Shared/TopTitle";
 function Advantages() {
     const [activeIndex, setActiveIndex] = useState(0)
     const items = [1,2,3,4,5];
-    const contents = ["lorem ipsum","dolor sit", "amet" , "deneme" ,"memo"]
+    const contents =
+        [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae dolor et urna faucibus convallis eu Mauris vitae dolor et urna faucibus convallis eu",
+            "Phasellus eget eleifend eros. Donec sed risus cursus, scelerisque nisl non, consectetur libero. Fusce eu auctor nunc. Integer non dolor mauris. Vivamus malesuada",
+            "Morbi eu luctus nibh. Mauris eros dui, consectetur vel ullamcorper eu, accumsan viverra odio. Sed at tellus in arcu rhoncus commodo ac et turpis. Vestibulum porta vestibulum eros," ,
+            "Praesent dapibus sem aliquet neque efficitur placerat. Mauris vehicula quam a eros dapibus semper. Nunc lectus mi, mollis sed tristique vitae"
+            ,"MUSTAFA KABA -- MEDICARE WEB APP -- CLOUD BILISIM "
+
+        ]
     return  (
        <Router>
            <div className={styles}>

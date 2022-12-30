@@ -178,9 +178,6 @@
     .advantages-left-section{
         width: 100%;
     }
-    .advantages-left-section .advantages-box{
-        width: 100%;
-    }
     .advantages-right-section{
         width: 100%;
         margin-bottom: 40px;
@@ -230,9 +227,6 @@
     .advantages-left-section{
         width: 100%;
     }
-    .advantages-left-section .advantages-box{
-        width: 100%;
-    }
     .advantages-right-section{
         width: 100%;
         margin-bottom: 40px;
@@ -266,8 +260,10 @@
     .advantage-button-area span{
         margin-left: 0!important;
     }
-
+    .advantages-left-section{
+        justify-content: center;
     }
+}
 /*IPAD AIR BİTİŞ*/
 /*Bilgisayar BAŞLANGIÇ*/
 
