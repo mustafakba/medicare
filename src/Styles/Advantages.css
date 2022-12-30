@@ -74,12 +74,16 @@
     display: flex;
     justify-content: space-between;
 }
+.advantages-item {
+    cursor: pointer;
+}
 .advantages-item .advantages-box{
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) scale(0.8);
     display: flex;
     padding: 2px;
     align-items: center;
     justify-content: center;
+    transition: .3s all ease;
     width: 72px;
     height: 72px;
 }
@@ -92,6 +96,7 @@
     border: 1px solid #2BB0EF;
     max-height: 72px;
     max-width: 72px;
+    transform: rotate(-45deg) scale(1);
 }
 .active .advantage-item .advantages-box .advantages-box-content{
     background: #2BB0EF;
@@ -156,3 +161,119 @@
     align-items: center;
     margin-top: 10px;
 }
+/*IPHONE BAŞLANGIÇ*/
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+    .advantages-container{
+        padding: 0;
+        padding-top: 50px!important;
+        margin-top: 50px;
+    }
+    .advantages-content{
+        flex-direction: column;
+        margin-top: 0;
+
+
+
+    }
+    .advantages-left-section{
+        width: 100%;
+    }
+    .advantages-left-section .advantages-box{
+        width: 100%;
+    }
+    .advantages-right-section{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .advantages-right-section .image-box img{
+        max-width: 100%;
+    }
+    .advantages-explanation{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .advantages-box{
+        padding: 0;
+        height: 100%;
+    }
+    .advantages-bottom-container{
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .advantages-item{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .advantage-button-area{
+        margin-top: 0;
+        padding-bottom: 30px;
+    }
+    .advantage-button-area span{
+        margin-left: 0!important;
+    }
+
+}
+/*IPHONE BİTİŞ*/
+/*IPAD AIR BAŞLANGIÇ*/
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    .advantages-container{
+        padding: 0;
+        padding-top: 50px!important;
+        margin-top: 50px;
+    }
+    .advantages-content{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .advantages-left-section{
+        width: 100%;
+    }
+    .advantages-left-section .advantages-box{
+        width: 100%;
+    }
+    .advantages-right-section{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .advantages-explanation{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .advantages-box{
+        padding: 0;
+        height: 100%;
+    }
+    .advantages-bottom-container{
+
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .advantages-content{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .advantages-item{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .advantage-button-area{
+        margin-top: 0;
+        padding-bottom: 30px;
+    }
+    .advantage-button-area span{
+        margin-left: 0!important;
+    }
+
+    }
+/*IPAD AIR BİTİŞ*/
+/*Bilgisayar BAŞLANGIÇ*/
+
+@media only screen and (min-width: 993px) and (max-width:1400px) {
+
+
+
+}
+/*Bilgisayar Bitiş*/

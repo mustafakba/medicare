@@ -93,3 +93,44 @@
     color:#ffffff;
     letter-spacing: 1px;
 }
+
+/*MEDIA QUERY */
+
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+
+    .job-container{
+        flex-direction: column;
+        margin: 0;
+        padding: 30px;
+    }
+    .flat-progress-item{
+        margin: 35px 0 35px 0;
+        padding: 0;
+
+    }
+    .progress-name{
+        margin:0;
+        padding-top: 40px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    .job-container{
+        flex-direction: column;
+        margin: 0;
+        padding: 30px;
+    }
+    .flat-progress-item{
+        margin: 35px 0 35px 0;
+        padding: 0;
+
+    }
+    .progress-name{
+        margin:0;
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width:1400px) {
+
+
+}

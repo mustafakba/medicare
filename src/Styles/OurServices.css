@@ -92,3 +92,74 @@
 .right-col .mini-explanation-paragraph{
     text-align: left!important;
 }
+
+/*MEDIA QUERY */
+/*IPHONE BAŞLANGIÇ*/
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+    .our-services-container{
+        flex-direction: column;
+    }
+    .services-left-section{
+        width: 100%;
+    }
+    .services-right-section{
+        width: 100%;
+    }
+
+    .treatments{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .treatments .left-col , .treatments .right-col{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .treatments .right-col{
+        margin-left: 80px;
+    }
+}
+
+/*IPHONE BITIŞ*/
+/*IPAD BAŞLANGIÇ*/
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    .our-services-container{
+        flex-direction: column;
+    }
+    .services-left-section{
+        width: 100%;
+    }
+    .services-right-section{
+        width: 100%;
+    }
+    .thin-services-paragraph{
+        margin-top: 40px;
+    }
+    .treatments{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .treatments .left-col , .treatments .right-col{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-col .mini-component,.right-col .mini-component{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width:1400px) {
+
+
+}
