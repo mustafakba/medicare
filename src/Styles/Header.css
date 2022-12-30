@@ -77,3 +77,46 @@
     cursor:pointer;
 
 }
+.mobile-menu img{
+    width: 16px;
+    height: 16px;
+}
+    @media only screen and (min-width: 0px) and (max-width: 576px) {
+        .menuItems{
+            display: none;
+        }
+
+        .language-section{
+            display: none;
+        }
+        .mobile-menu{
+            display: block;
+            position: fixed;
+            left: 350px;
+        }
+
+
+    }
+  @media only screen and (min-width: 768px) and (max-width:992px) {
+      .menuItems{
+          display: none;
+      }
+
+      .language-section{
+          display: none;
+      }
+      .mobile-menu{
+          display: block;
+          position: fixed;
+          left: 750px;
+      }
+
+    }
+
+@media only screen and (min-width: 992px) and (max-width:2000px) {
+    .mobile-menu{
+        display: none;
+    }
+
+}
+

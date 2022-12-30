@@ -1,4 +1,5 @@
 import styles from '../../Styles/Header.css'
+import image from '../../image/menu-mobile.svg'
 function Header() {
     return (
         <div className={styles}>
@@ -28,6 +29,9 @@ function Header() {
                    <div className="language-icon">
                        <img src="https://themesflat.com/html/medicare/images/icon/btn-menu-activet.png" alt=""/>
                    </div>
+               </div>
+               <div onClick="open-menu" className="mobile-menu">
+                   <img src={image} alt=""/>
                </div>
            </div>
         </div>
