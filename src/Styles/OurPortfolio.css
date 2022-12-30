@@ -132,6 +132,9 @@
 .container-relative:hover .overlay {
     opacity: .75;
 }
+.container-relative:hover .overlay-icon {
+    left: 0;
+}
 .container-relative:hover .portfolio-image{
     transform: rotate(0.75deg) scale(1);
 }
@@ -173,6 +176,9 @@
     padding: 20px;
     color: white;
     background-color: #2bb0ef;
+    position: relative;
+    left: -50px;
+    transition: .4s all ease;
 }
 
 .container-relative{
